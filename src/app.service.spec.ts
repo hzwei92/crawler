@@ -16,6 +16,7 @@ describe('AppService', () => {
     expect(service).toBeDefined();
   });
 
+  jest.setTimeout(100000);
   it('should run without repetitions', async () => {
     await service.init('http://localhost:3000/', 1, 3);
     const urls = await service.crawl(0);
