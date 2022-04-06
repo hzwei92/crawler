@@ -1,3 +1,10 @@
+to install dependencies,
+
+(1) run 'yarn install' in the root directory
+
+(2) run 'cd client' && 'yarn install'
+
+
 to test, 
 
 (1) start client by using 'cd client' && 'yarn start'
